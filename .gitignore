@@ -1,0 +1,44 @@
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+*.log
+
+# === Virtual Environment ===
+venv/
+.env/
+.env.bak/
+.venv/
+
+# === Jupyter Notebook checkpoints (kalau pakai notebook) ===
+.ipynb_checkpoints/
+
+# === Sistem (Windows/Linux/Mac) ===
+.DS_Store
+Thumbs.db
+
+# === Data files (raw/processed) ===
+data/raw/
+data/processed/
+
+# Kalau ada dataset besar eksternal:
+*.csv
+*.xlsx
+*.tsv
+
+# === Model & hasil training ===
+models/
+reports/
+
+# === Config sensitif ===
+firebase-key.json
+*.env
+config.json
+secret.json
+
+# Tetap simpan dataset kecil
+!data/raw/dataset-sewa-360.csv
