@@ -285,3 +285,4 @@ def predict_price_legacy(request: ProductRequest):
         }
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+        

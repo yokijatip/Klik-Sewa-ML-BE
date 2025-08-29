@@ -460,16 +460,13 @@ Proyek ini cocok untuk:
 4. Push to branch (`git push origin feature/AmazingFeature`) 
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📧 Contact
 
-**Developer:** [Your Name]  
-**Email:** [your.email@example.com]  
+**Developer:** Yoki Jati Perkasa  
+**Email:** [yokijatiforwork@gmail.com]  
 **LinkedIn:** [your-linkedin-profile]  
-**University:** [Your University Name]
+**University:** [STMIK Mardira Indonesia]
 
 ---
 
