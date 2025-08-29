@@ -1,34 +1,34 @@
 # Core FastAPI dan ASGI server
-fastapi==0.115.0
-uvicorn[standard]==0.30.6
+fastapi
+uvicorn[standard]
 
 # Data processing dan ML
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.2
-joblib==1.4.2
+pandas
+numpy
+scikit-learn
+joblib
 
 # Validation dan typing
-pydantic==2.8.2
-pydantic[email]==2.8.2
+pydantic
+pydantic[email]
 
 # Visualization
-matplotlib==3.9.0
-seaborn==0.13.2
-plotly==5.17.0
+matplotlib
+seaborn
+plotly
 
 # Configuration
-python-dotenv==1.0.1
+python-dotenv
 
 # HTTP client untuk testing
-requests==2.31.0
+requests
 
 # Development tools
-pytest==7.4.3
-pytest-asyncio==0.21.1
+pytest
+pytest-asyncio
 
 # Optional: untuk production
-gunicorn==21.2.0
+gunicorn
 
 # Optional: untuk monitoring
-prometheus-client==0.19.0
+prometheus-client
