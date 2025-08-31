@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Structure - KlikSewa</title>
+</head>
+<body>
+  <h1>Project Structure - KlikSewa</h1>
+  <pre>
+  com.gity.klikswa
+  ├── data
+  │   ├── model
+  │   │   ├── AddressModel
+  │   │   ├── BannerModel
+  │   │   ├── CartItemModel
+  │   │   ├── OwnerMenuModel
+  │   │   ├── ProductCategoryModel
+  │   │   ├── ProductModel
+  │   │   ├── ReviewModel
+  │   │   ├── SettingsMenuModel
+  │   │   └── UserModel
+  │   ├── repository
+  │   │   ├── AddressRepositoryImpl
+  │   │   ├── AuthRepositoryImpl
+  │   │   ├── BannerRepositoryImpl
+  │   │   ├── CartRepositoryImpl
+  │   │   └── ProductRepositoryImpl
+  │   ├── source
+  │   │   └── remote
+  │   │       ├── BannerRemoteSource
+  │   │       └── FirebaseAuthSource
+  │   └── di
+  │       ├── AppModule
+  │       ├── FirebaseModule
+  │       └── RepositoryModule
+  │
+  ├── domain
+  │   └── repository
+  │       ├── AddressRepository
+  │       ├── BannerRepository
+  │       ├── CartRepository
+  │       └── ProductRepository
+  │
+  ├── ui
+  │   ├── auth
+  │   │   ├── login
+  │   │   │   └── LoginFragment
+  │   │   ├── register
+  │   │   │   └── RegisterFragment
+  │   │   ├── AuthActivity
+  │   │   └── AuthViewModel
+  │   │
+  │   ├── main
+  │   │   ├── cart
+  │   │   │   ├── adapter
+  │   │   │   │   └── CartAdapter
+  │   │   │   ├── checkout
+  │   │   │   ├── CartActivity
+  │   │   │   └── CartViewModel
+  │   │   │
+  │   │   ├── explore
+  │   │   │   ├── adapter
+  │   │   │   │   └── RandomProductAdapter, ExploreAdapter, RecommendedProductAdapter
+  │   │   │   ├── ExploreFragment
+  │   │   │   └── ExploreViewModel
+  │   │   │
+  │   │   ├── favorite
+  │   │   │   └── FavoriteFragment
+  │   │   │
+  │   │   ├── home
+  │   │   │   ├── adapter
+  │   │   │   │   ├── ProductCategoryAdapter
+  │   │   │   │   └── RecommendedProductAdapter
+  │   │   │   ├── HomeFragment
+  │   │   │   └── HomeViewModel
+  │   │   │
+  │   │   ├── user
+  │   │   │   ├── adapter
+  │   │   │   │   ├── OwnerMenuAdapter
+  │   │   │   │   └── SettingsMenuAdapter
+  │   │   │   ├── UserFragment
+  │   │   │   └── UserViewModel
+  │   │   │
+  │   │   ├── address
+  │   │   │   ├── adapter
+  │   │   │   │   └── AddressAdapter
+  │   │   │   ├── AddressActivity
+  │   │   │   └── AddressViewModel
+  │   │   │
+  │   │   ├── product
+  │   │   │   ├── add
+  │   │   │   │   ├── AddProductActivity
+  │   │   │   │   ├── AddProductViewModel
+  │   │   │   │   └── PriceRecommendationActivity
+  │   │   │   └── detail
+  │   │   │       ├── adapter
+  │   │   │       │   └── ProductPriceTypeAdapter
+  │   │   │       ├── DetailProductActivity
+  │   │   │       └── DetailProductViewModel
+  │   │   │
+  │   │   ├── storage
+  │   │   ├── splash
+  │   │   │   └── SplashScreenActivity
+  │   │   └── MainActivity
+  │
+  ├── usecase
+  │   ├── AddProductUseCase
+  │   ├── AddToCartUseCase
+  │   ├── CartUseCase
+  │   ├── GetCartItemUseCase
+  │   ├── GetProductByIdUseCase
+  │   └── GetProductUseCase
+  │
+  ├── helper
+  │   └── CommonUtils
+  │
+  └── util
+      ├── NetworkBoundResource
+      ├── Resource
+      ├── UserPreferencesManager
+      └── KlikSewaApp
+  </pre>
+</body>
+</html>
