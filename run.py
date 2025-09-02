@@ -3,6 +3,8 @@ import subprocess
 import sys
 import os
 
+# run server ip address uvicorn src.api.main:app --reload --host 0.0.0.0 --port 8000
+
 def run_step(script):
     print(f"\n[RUNNING] {script}")
     result = subprocess.run([sys.executable, script], capture_output=True, text=True)
